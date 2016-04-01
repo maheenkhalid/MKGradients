@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MKGradient {
+class MKGradients {
     class func addGradientLayerAlongXAxis(view: UIView, colors:[CGColor]) {
         let gradient = CAGradientLayer()
         gradient.frame = view.bounds
