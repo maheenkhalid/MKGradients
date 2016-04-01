@@ -7,7 +7,12 @@
 
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+```ruby
+import MKGradients
+
+MKGradient.addGradientLayerAlongXAxis(self.view, colors: [UIColor.redColor().CGColor, UIColor.greenColor().CGColor])
+MKGradient.addGradientLayerAlongYAxis(self.view, colors: [UIColor.redColor().CGColor, UIColor.greenColor().CGColor])
+```
 
 
 ## Installation
@@ -18,15 +23,6 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "MKGradients"
 ```
-
-## Installation
-```ruby
-import MKGradients
-
-MKGradient.addGradientLayerAlongXAxis(self.view, colors: [UIColor.redColor().CGColor, UIColor.greenColor().CGColor])
-MKGradient.addGradientLayerAlongYAxis(self.view, colors: [UIColor.redColor().CGColor, UIColor.greenColor().CGColor])
-```
-
 
 ## Author
 
