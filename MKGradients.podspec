@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.description      = "This CocoaPods is used to add gradient backgrounds on UIView's. You can add gradients along X and Y axis."
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/MKGradients"
+  s.homepage         = "https://github.com/maheenkhalid/MKGradients"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Maheen Khalid" => "maheenkhalid08@gmail.com" }
