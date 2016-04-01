@@ -27,5 +27,7 @@ class MKGradient {
         gradient.colors = colors
         
         view.layer.insertSublayer(gradient, atIndex: 0)
+        
+        
     }
 }
