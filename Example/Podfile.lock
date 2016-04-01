@@ -1,0 +1,14 @@
+PODS:
+  - MKGradients (0.1.0)
+
+DEPENDENCIES:
+  - MKGradients (from `../`)
+
+EXTERNAL SOURCES:
+  MKGradients:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MKGradients: 321ffc95542db4209df97b99d3ed94da8b232154
+
+COCOAPODS: 0.39.0
